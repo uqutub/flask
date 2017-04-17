@@ -1,0 +1,9 @@
+
+    {{users}}
+    <ul>
+        {% for u in users %}
+        <li> {{u.username}} / {{u.email}} </li>
+        {% endfor %}
+    </ul>
+    <h4> One Item </h4>
+    {{user.id}}. {{user.username}} / {{user.email}}
